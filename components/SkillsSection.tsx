@@ -1,14 +1,24 @@
 import Image from "next/image";
 import React from "react";
 
-const techImages = [{id:1,src: "/images/java-icon.svg", alt: "Java"},
-{id:2,src: "/images/unofficial_javascript_logo_2.svg", alt: "JavaScript"},
-{id:3,src: "/images/net_core_logo.svg", alt: ".NET"},
+const techImages = [
+{id:0,src: "/images/c-icon.svg", alt: "C"},
+{id:1,src: "/images/java-icon.svg", alt: "Java"},
+{id:1,src: "/images/python-logo.svg", alt: "Python"},
+{id:2,src: "/images/mysql-icon.svg", alt: "MySQL"},
+{id:3,src: "/images/unofficial_javascript_logo_2.svg", alt: "JavaScript"},
 {id:4,src: "/images/postgresql_elephant.svg", alt: "PostgreSQL"},
 {id:5,src: "/images/sql-database-generic.svg", alt: "SQL"},
-{id:6,src: "/images/nextjs-icon.svg", alt: "NextJS"},
-{id:7,src: "/images/react-icon.svg", alt: "ReactJS"},
-{id:8,src:"/images/git-icon-white.svg", alt: "GIT"}];
+{id:6,src: "/images/net_core_logo.svg", alt: ".NET"},
+{id:7,src: "/images/nextjs-icon.svg", alt: "NextJS"},
+{id:8,src: "/images/react-icon.svg", alt: "ReactJS"},
+{id:9,src: "/images/angular.svg", alt: "AngularJS"},
+{id:10,src:"/images/git-icon-white.svg", alt: "GIT"},
+{id:11,src: "/images/AWS-logo.svg", alt: "AWS Services"},
+{id:12,src: "/images/Power_BI_Logo.svg", alt: "Power BI"},
+{id:13,src: "/images/Linux.svg", alt: "Linux"},
+{id:13,src: "/images/visual-studio-icon.svg", alt: "Visual Studio"}
+];  
 
 export default function SkillsSection() {
   return (

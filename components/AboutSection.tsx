@@ -7,7 +7,7 @@ const uw_tacoma = {
   title: "University of Washington",
   desc: "Master's in Computer Science and Systems",
   date: "Sep 23 - Dec 24",
-  tech: ["Advanced Algorithms", "Distribured Systems", "Cloud Computing", "Database Systems Design", "Big Data Analytics", "Machine Learning" ],
+  tech: ["Advanced Algorithms", "Applied Distribured Systems", "Cloud Computing", "Database Systems Design", "Big Data Analytics", "Database System Internals" ],
 };
 const srit = {
   title: "Sri Ramakrishna Institute of Technology",
